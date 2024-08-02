@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 //inverter um numero sequencial digitado pelo usuário
+//ver versao original do video pois o professor criou logica para reconhecer numeros negativos
 
 int main() {
 
