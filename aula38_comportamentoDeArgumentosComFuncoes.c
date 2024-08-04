@@ -2,7 +2,7 @@
 
 int main(void) {
 
-    void funcaoPrint(int x, int vetor[]);
+    void funcaoPrint(int x, int vetor[]);// declaracao da funcao 1
     int x = 10;
     int vetor[3] = {10};
 
@@ -13,7 +13,7 @@ int main(void) {
 
     return 0;
 }
-void funcaoPrint(int x, int vetor[]) {
+void funcaoPrint(int x, int vetor[]) { // funcao 1
 
     x = x + 10;
     vetor[1] = 20;
