@@ -21,7 +21,16 @@ int main(void) {
     depois->minuto = 30;
     depois->segundo = 16;
 
-    printf("%i:%i:%i", agora.hora, agora.minuto, agora.segundo);
+    int somatorio = 100; //aula 64 inicia aqui
+
+    struct horario antes;
+
+    antes.hora = somatorio + depois->segundo;
+    antes.minuto = agora.hora + depois->minuto;
+    antes.segundo = depois->minuto + depois->segundo;
+
+    printf("agora: %i:%i:%i \n", agora.hora, agora.minuto, agora.segundo);
+    printf("antes: %i:%i:%i \n", antes.hora, antes.minuto, antes.segundo);
 
     getchar();
     return 0;
