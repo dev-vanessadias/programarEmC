@@ -16,6 +16,6 @@ int main(void) {
     x[i] = '\0';
 
     printf("%s", x);
-    
+
     return 0;
 }
