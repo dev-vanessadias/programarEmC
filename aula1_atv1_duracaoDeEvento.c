@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//https://pessoal.dainf.ct.utfpr.edu.br/jeansimao/Fundamentos1/LinguagemC/Prof_Linhares_Exercicios_2016_1.pdf
+
 int main() {
     int tempoEmSegundos, horas, minutos, segundos;
 
@@ -17,3 +19,6 @@ int main() {
 
     return 0;
 }
+
+
+
